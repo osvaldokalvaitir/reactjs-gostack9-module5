@@ -14,6 +14,12 @@ Aplicação usando Create React App, ESLint, Prettier, EditorConfig, React Route
 
 ## Índice
 
+- [Capturas de Tela](#capturas-de-tela)
+
+  - [Principal](#principal)
+
+  - [Repositório](#repositório)
+
 - [Desenvolvimento](#desenvolvimento)
 
   - [Configuração do Ambiente](#configuração-do-ambiente)
@@ -25,6 +31,18 @@ Aplicação usando Create React App, ESLint, Prettier, EditorConfig, React Route
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
+
+## Capturas de Tela
+
+### Principal
+
+![Main](/assets/main.png)
+Esta é a primeira tela, onde encontram-se todos os repositórios do GitHub que o usuário pesquisar na caixa de texto.
+
+### Repositório
+
+![Repository](/assets/repository.png)
+Nesta tela, encontram-se todas as issues referentes ao repositório selecionado pelo usuário, podendo abrir a página da issue ou também voltar para a página inicial.
 
 ## Desenvolvimento
 
@@ -65,3 +83,14 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router-dom.md)
 
 - [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
+
+### APIs
+
+- **[GitHub](https://api.github.com)**
+
+  - **Rotas**
+
+    - Usuários
+
+      - Busca dados de um repositório pertencente a um usuário
+      - Busca issues de um repositório pertencente a um usuário
