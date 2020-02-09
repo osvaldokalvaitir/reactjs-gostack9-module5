@@ -36,12 +36,12 @@ Aplicação usando Create React App, ESLint, Prettier, EditorConfig, React Route
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Esta é a primeira tela, onde encontram-se todos os repositórios do GitHub que o usuário pesquisar na caixa de texto.
 
 ### Repositório
 
-![Repository](/assets/repository.png)
+![Repository](/.github/assets/repository.png)
 Nesta tela, encontram-se todas as issues referentes ao repositório selecionado pelo usuário, podendo abrir a página da issue ou também voltar para a página inicial.
 
 ## Desenvolvimento
